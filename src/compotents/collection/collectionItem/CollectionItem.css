@@ -1,0 +1,41 @@
+.collection-item-cover{
+height: 320px;
+width: 260px;
+margin-right: 20px;
+/* background-color: var(--primary-bg);
+box-shadow: var(--collection-shadow); */
+border-radius:6px;
+position: relative;
+}
+.gradient-bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: var(--bg-gradient);
+    top: 0;
+    left: 0;
+    border-radius: 6px;
+}
+
+.collection-item-image{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+}
+.collection-item-title{
+    position: absolute;
+    left: 16px;
+    bottom: 32px;
+    font-size: 18px;
+    color: var(--primary-bg);
+    font-weight: 500;
+}
+.collection-card-subtitle{
+    display: flex;
+    position: absolute;
+    left: 16px;
+    bottom: 10px;
+    font-size: 12px;
+    color: var(--primary-bg);
+} 
